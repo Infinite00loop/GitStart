@@ -13,4 +13,10 @@ var abc=document.getElementById('add');
 abc.style.fontWeight='bold';
 abc.style.color='green';
 
+var xyz=document.getElementsByClassName('list-group-item');
+// console.log('xyz');
+xyz[2].style.backgroundColor='green';
+for(let i=0;i<xyz.length;i++){
+    xyz[i].style.fontWeight='bold';
+}
 
